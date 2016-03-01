@@ -7,12 +7,12 @@
 #include "XMLIO.h"
 #include "strs.h"
 
-#include <mcheck.h>
+//#include <mcheck.h>
 
 
 int main(int argc, char** argv)
 {
-  mtrace();
+  //mtrace();
 
   OpenDbgFile();
 	
@@ -94,7 +94,7 @@ int main(int argc, char** argv)
 
   CloseDbgFile();
   
-  muntrace();
+  //muntrace();
 
   return 0;
 
